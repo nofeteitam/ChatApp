@@ -1,7 +1,6 @@
-// src/components/ChatWindow.jsx
 import React, { useEffect, useRef, useState } from "react";
-import { socket } from "../socket";
-import API from "../api";
+import { socket } from "../../socket";
+import API from "../../api";
 import EmojiPicker from "emoji-picker-react";
 
 export default function ChatWindow({ user, contact }) {

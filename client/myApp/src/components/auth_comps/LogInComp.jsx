@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import { postRequest } from "../../utils/httpRequests"
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import API from "C:/fullstuck/FinalPro/client/myApp/src/api.js";
-import { socket } from "C:/fullstuck/FinalPro/client/myApp/src/socket.js";
+import { socket } from "../../socket";
 
 export const LogInComp = () => {
 

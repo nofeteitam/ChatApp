@@ -1,13 +1,9 @@
-// src/components/ContactsList.jsx
 import React from "react";
 import { useState, useEffect } from "react";
-import API from "C:/fullstuck/FinalPro/client/myApp/src/api.js";
-import { socket } from "C:/fullstuck/FinalPro/client/myApp/src/socket.js";
-
-export default function ContactsList({ users = [], groups = [], selectedId, onSelect, addGroup }
+import { socket } from "../../socket";
 
 
-) {
+export default function ContactsList({ users = [], groups = [], selectedId, onSelect, addGroup }) {
 
     const [userStatus, setUserStatus] = useState({});
 

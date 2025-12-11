@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, Link, useNavigate } from "react-router-dom";
-import { socket } from "C:/fullstuck/FinalPro/client/myApp/src/socket.js";
-import API from "C:/fullstuck/FinalPro/client/myApp/src/api.js";
 
 export default function CreateGroupModal({ curUser, users, onClose, onCreate }) {
     const [name, setName] = useState("");

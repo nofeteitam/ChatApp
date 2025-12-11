@@ -1,12 +1,12 @@
 // src/pages/Home.jsx
 import React, { useEffect, useState } from "react";
 import { useLocation, Link, useNavigate } from "react-router-dom";
-import ContactsList from "../ContactsList";
-import ChatWindow from "../ChatWindow";
+import ContactsList from "./ContactsList";
+import ChatWindow from "./ChatWindow";
 import CreateGroupModal from "./CreateGroupModal ";
 import GroupChat from "./GroupChat";
-import API from "C:/fullstuck/FinalPro/client/myApp/src/api.js";
-import { socket } from "C:/fullstuck/FinalPro/client/myApp/src/socket.js";
+import { socket } from "../../socket";
+import API from "../../api";
 
 
 export const HomeComp = () => {

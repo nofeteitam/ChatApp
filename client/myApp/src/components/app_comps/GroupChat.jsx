@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import { useLocation, Link, useNavigate } from "react-router-dom";
-import { socket } from "C:/fullstuck/FinalPro/client/myApp/src/socket.js";
-import API from "C:/fullstuck/FinalPro/client/myApp/src/api.js";
+import { socket } from "../../socket";
+import API from "../../api";
 import EmojiPicker from "emoji-picker-react";
 
 export default function GroupChat({ user, group }) {
